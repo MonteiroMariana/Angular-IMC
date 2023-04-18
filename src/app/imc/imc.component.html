@@ -1,0 +1,10 @@
+<div class="content">
+  <form>
+      <label>Altura</label><input class="form-control" name="altura" [(ngModel)]="altura">
+      <label>Peso</label><input class="form-control" name="peso" [(ngModel)]="peso">
+      <div class="button-group">
+        <button class="form-button" (click)="enviar()">Enviar</button>
+      </div>
+      <h3 class="result">{{resultado}}</h3>
+  </form>
+</div>
